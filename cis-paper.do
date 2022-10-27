@@ -1,3 +1,4 @@
+* This code needs to be run separately for each country in order to reproduce the results from the manuscript.
 clear all
 
 
@@ -16,6 +17,18 @@ encode Industry, gen(ind)
 *encode Country, gen(cty)
 
 *Choose a country
+* The countries need to be specified below through their 2-digit ISO code.
+* The options are:
+* Bulgaria - BG
+* Czech Republic - CZ
+* Hungary - HU
+* Romania - RO
+* Slovakia - SK
+* Germany - DE
+* Spain EC
+* Norway NO
+* Portugal PT
+
 keep if (Country=="ES")
 
 * DECISION TO INNOVATE
